@@ -3,28 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receitinhas de vó</title>
+    <title>Receitas Delícia - Sabores que encantam</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Receitinhas da vó</h1>
+        <div class="container">
+            <div class="logo">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/34d01442-c397-4536-96a1-798bdfb13eb9.png" alt="Logo Receitas Delícia - Ícone de tigela com colher e aroma riscantes em vermelho">
+                <h1>Receitas Delícia</h1>
+            </div>
+        </div>
     </header>
-    <main>
-        <div class="lis">
-            <div class="bolocen">
-                <img src="" alt="">
-                <a href="">Bolo de Cenoura</a>
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Receitas</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main class="container">
+        <section class="destaque">
+            <div class="destaque-imagem">
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c0389b22-3992-4388-a043-bc94b1cd506c.png" alt="Lasanha à bolonhesa caseira em prato branco com queijo derretido e folhas de manjericão fresco">
             </div>
-            <div class="torta">
-                <img src="" alt="">                
-                <a href="">Torta Salgada</a>                
+            <div class="destaque-conteudo">
+                <h2>Lasanha à Bolonhesa</h2>
+                <p>Esta receita de lasanha à bolonhesa irá conquistar seu paladar com camadas perfeitas de massa, molho de carne e queijo derretido.</p>
+                
+                <div class="tempo-preparo">
+                    <div class="tempo-item">
+                        <span>⏱️</span>
+                        <span>1h 30min</span>
+                    </div>
+                    <div class="tempo-item">
+                        <span>🍽️</span>
+                        <span>8 porções</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="botao-receita">Ver receita completa</a>
             </div>
-            <div class="pudim">
-                <img src="" alt="">
-                <a href="">Pudim De Leite</a>
-            </div>
-            <div class=""></div>
+        </section>
+        
+        <h2 class="receitas-titulo">Descubra novas receitas</h2>
+        
+        <div class="receitas-grid">
+            <article class="receita-card">
+                <div class="receita-imagem">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/0fc4d76f-8a46-487f-a19f-797e9ba4f29b.png" alt="Pudim de leite condensado caramelizado em forma redonda com calda dourada escorrendo">
+                </div>
+                <div class="receita-conteudo">
+                    <h3>Pudim de Leite</h3>
+                    <p>O clássico pudim brasileiro com textura cremosa e calda dourada perfeita que derrete na boca.</p>
+                    <a href="#" class="botao-receita">Ver receita</a>
+                </div>
+            </article>
+            
+            <article class="receita-card">
+                <div class="receita-imagem">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/fe391a1e-4a8d-4ecc-9b11-720e13f762e3.png" alt="Bolo de chocolate úmido decorado com raspas de chocolate e morangos frescos ao redor">
+                </div>
+                <div class="receita-conteudo">
+                    <h3>Bolo de Chocolate</h3>
+                    <p>Receita fácil de bolo de chocolate super úmido e fofinho que vai se tornar seu favorito.</p>
+                    <a href="#" class="botao-receita">Ver receita</a>
+                </div>
+            </article>
+            
+            <article class="receita-card">
+                <div class="receita-imagem">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/fb4a5c27-0fe0-4ab9-ade0-147e0c4aa57d.png" alt="Frango assado inteiro com pele dourada crocante em tabua de madeira com legumes assados">
+                </div>
+                <div class="receita-conteudo">
+                    <h3>Frango Assado</h3>
+                    <p>Frango assado perfeito com pele crocante e carne suculenta, temperado com especiarias.</p>
+                    <a href="#" class="botao-receita">Ver receita</a>
+                </div>
+            </article>
+            
+            <article class="receita-card">
+                <div class="receita-imagem">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4aa05fdc-f8bd-4738-83df-f1de62143df9.png" alt="Salada caprese fresca com tomate, mussarela de búfala, folhas de manjericão e azeite extra virgem">
+                </div>
+                <div class="receita-conteudo">
+                    <h3>Salada Caprese</h3>
+                    <p>Combinação perfeita de tomate fresco, mussarela de búfala e manjericão, regado com azeite.</p>
+                    <a href="#" class="botao-receita">Ver receita</a>
+                </div>
+            </article>
         </div>
     </main>
-    </body>
+    
+    <footer>
+        <div class="container">
+            <p>Receitas Delícia - Sabores que encantam</p>
+            <p>© 2023 Todos os direitos reservados</p>
+            <div class="redes-sociais">
+                <a href="#"><img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c4cb54d3-1f37-4229-bd82-7dde0c2443ea.png" alt="Ícone do Facebook"></a>
+                <a href="#"><img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/2411f17b-d367-42df-9774-73232134cc2e.png" alt="Ícone do Instagram"></a>
+                <a href="#"><img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/c65477a1-552a-4643-93ae-300f2250f824.png" alt="Ícone do YouTube"></a>
+                <a href="#"><img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/19cfc446-f928-4a01-8252-9c823f34276b.png" alt="Ícone do Pinterest"></a>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
+
